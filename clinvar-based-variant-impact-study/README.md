@@ -46,7 +46,7 @@ This project is **entirely tool-based** (no coding). All analyses were conducted
 
 
 
-##  Selected Genes for Diagnostic Panel Simulation
+##  Selected Genes for the project
 
 This diagnostic gene panel includes three clinically significant genes, each with well-characterized pathogenic and benign variants. These genes were selected based on their medical relevance, availability of variant data in public databases, and their utility in evaluating variant interpretation tools such as SIFT, PolyPhen-2, CADD, and MutationTaster.
 
@@ -125,7 +125,7 @@ Below is the master summary table of all interpreted variants, integrating clini
 
 ---
 
-##  Summary Observations & Reflections
+##   Observations & Reflections (BRCA1)
 
 *  **Stop-lost and frameshift variants** are strongly predicted as pathogenic (e.g., CADD > 27, MT = Deleterious), aligning with known functional impact.
 *  **Mixed predictions** seen for `17:43045726C>A` — SIFT predicts deleterious, but PolyPhen and ClinVar disagree → highlights need for clinical context.
