@@ -1,15 +1,14 @@
-# 🧬 Variant Impact Analysis: Diagnostic Gene Panel Simulation
+#  Variant Impact Analysis: clinvar-based-variant-impact-study
 
-## 📌 Project Overview
+##  Project Overview
 
 This project aims to simulate a diagnostic gene panel analysis by evaluating and interpreting variants from three disease-relevant genes: **TP53**, **CFTR**, and **GJB2**. Using publicly available databases and prediction tools, we assess the clinical significance of each variant by comparing computational scores with known ClinVar annotations.
 
-The goal is to demonstrate how computational predictions like SIFT, PolyPhen-2, MutationTaster, and CADD align—or conflict—with clinical significance labels. This helps build an understanding of variant interpretation pipelines in precision medicine.
-
+The goal is to demonstrate how computational predictions like SIFT, PolyPhen-2, MutationTaster, and CADD align—or conflict—with clinical significance labels. This helps build an understanding of variant interpretation pipelines .
 ---
 
 
-## 🧾 Total Variants Studied
+##  Total Variants Studied
 
 | Gene  | Variants |
 |-------|----------|
@@ -20,7 +19,7 @@ The goal is to demonstrate how computational predictions like SIFT, PolyPhen-2, 
 
 ---
 
-## 📋 Example Variant Entry
+##  Example Variant Entry
 
 | Variant           | ClinVar Label           | SIFT    | PolyPhen | MutationTaster | CADD | Interpretation Summary |
 |------------------|-------------------------|---------|----------|----------------|------|-------------------------|
@@ -28,24 +27,32 @@ The goal is to demonstrate how computational predictions like SIFT, PolyPhen-2, 
 
 ---
 
-## 🧰 Tools & Databases Used
+##  Tools & Databases Used
 
-- **ClinVar** – for clinical significance annotations  
-- **dbSNP** – for variant IDs and genomic positions  
-- **Ensembl VEP** – for annotation, SIFT, PolyPhen, and consequence terms  
-- **MutationTaster** – for disease-causing prediction  
-- **CADD** – for combined annotation-dependent deleteriousness scores  
-- **Excel + Markdown** – for tabulation and visual comparison  
-
+- [**ClinVar**](https://www.ncbi.nlm.nih.gov/clinvar/) – for clinical significance annotations  
+- [**dbSNP**](https://www.ncbi.nlm.nih.gov/snp/) – for variant IDs and genomic positions  
+- [**Ensembl VEP**](https://www.ensembl.org/Tools/VEP) – for annotation, SIFT, PolyPhen, and consequence terms  
+- [**MutationTaster**](https://www.mutationtaster.org/) – for disease-causing prediction  
+- [**CADD**](https://cadd.gs.washington.edu/) – for combined annotation-dependent deleteriousness scores  
 ---
 
-## 🎯 Selected Genes for Diagnostic Panel Simulation
+##  Technical Note
+
+This project is **entirely tool-based** (no coding). All analyses were conducted using:
+
+-  Online tools (VEP, MutationTaster, PolyPhen, SIFT, CADD)
+-  Excel / Google Sheets for variant merging and scoring
+-  BioRender  exports for figure creation
+
+
+
+##  Selected Genes for Diagnostic Panel Simulation
 
 This diagnostic gene panel includes three clinically significant genes, each with well-characterized pathogenic and benign variants. These genes were selected based on their medical relevance, availability of variant data in public databases, and their utility in evaluating variant interpretation tools such as SIFT, PolyPhen-2, CADD, and MutationTaster.
 
 ---
 
-### 🧬 BRCA1 – *Hereditary Breast and Ovarian Cancer*
+###  BRCA1 – *Hereditary Breast and Ovarian Cancer*
 
 - **Inheritance:** Autosomal Dominant  
 - **Function:** BRCA1 encodes a 190 kDa nuclear phosphoprotein involved in the maintenance of genomic stability. It acts as a tumor suppressor and plays key roles in DNA repair (particularly double-stranded breaks), homologous recombination, and transcriptional regulation via interactions with RNA polymerase II and histone deacetylase complexes.  
@@ -53,7 +60,7 @@ This diagnostic gene panel includes three clinically significant genes, each wit
 
 ---
 
-### 🧬 CFTR – *Cystic Fibrosis*
+###  CFTR – *Cystic Fibrosis*
 
 - **Inheritance:** Autosomal Recessive  
 - **Function:** CFTR encodes a member of the ATP-binding cassette (ABC) transporter family. Unlike other ABC proteins, CFTR functions as a chloride ion channel and regulates salt and water movement across epithelial membranes in organs such as the lungs, pancreas, and intestines.  
@@ -61,14 +68,14 @@ This diagnostic gene panel includes three clinically significant genes, each wit
 
 ---
 
-### 🧬 GJB2 – *Non-syndromic Hearing Loss (DFNB1)*
+###  GJB2 – *Non-syndromic Hearing Loss (DFNB1)*
 
 - **Inheritance:** Autosomal Recessive  
 - **Function:** GJB2 encodes **connexin 26**, a member of the gap junction protein family that facilitates direct intercellular communication via ion and small molecule exchange. These channels are essential for maintaining ionic balance in cochlear hair cells.  
 - **Clinical Relevance:** Mutations in GJB2 are responsible for up to **50% of cases of prelingual, autosomal recessive non-syndromic hearing loss**. Its inclusion introduces diversity in disease mechanisms (sensory, not metabolic or oncological) and offers insights into high-impact missense mutations across varied populations.
 
 ---
-## 🧠 Understanding Prediction Tool Discrepancies
+##  Understanding Prediction Tool Discrepancies
 
 Not all computational tools agree — and that’s expected. Each tool uses different models, biological assumptions, and data sources.
 
@@ -79,7 +86,7 @@ Not all computational tools agree — and that’s expected. Each tool uses diff
 | **MutationTaster** | Disease relevance              | Gene models, known variants, splice impact, conservation |
 | **CADD**         | Overall variant deleteriousness| Integrated score from multiple genomic annotations      |
 
-### 🔍 Why Do Predictions Differ?
+###  Why Do Predictions Differ?
 
 - **Transcript dependency**: Some tools score variants based on specific transcripts (e.g. MANE vs others). A variant might be missense in one transcript, UTR in another.
 - **Conservation bias**: Tools like SIFT weigh sequence conservation heavily. Variants in less-conserved regions may be scored as benign despite functional relevance.
@@ -88,7 +95,7 @@ Not all computational tools agree — and that’s expected. Each tool uses diff
 
 ---
 
-### 💡 Takeaway
+###  Takeaway
 
 These differences emphasize the importance of:
 - Using **multiple tools** for variant evaluation.
@@ -101,11 +108,11 @@ Note: MutationTaster “Score” reflects internal classifier strength, not prob
 
 
 
-## 🧬 Variant Impact Summary (Case Study: BRCA1 Region)
+##  Variant Impact Summary (Case Study: BRCA1 Region)
 
 Below is the master summary table of all interpreted variants, integrating clinical classification (ClinVar) with computational predictions from SIFT, PolyPhen-2, MutationTaster, and CADD.
 
-### 📋 Variant Interpretation Table
+###  Variant Interpretation Table
 
 | **Variant**     | **AA Change** | **MutationTaster** | **ClinVar Significance**     | **CADD PHRED** | **SIFT**                            | **PolyPhen**              | **Variant Type**           | **Notes** |
 | --------------- | ------------- | ------------------ | ---------------------------- | -------------- | ----------------------------------- | ------------------------- | -------------------------- | --------- |
@@ -118,20 +125,18 @@ Below is the master summary table of all interpreted variants, integrating clini
 
 ---
 
-## 💡 Summary Observations & Reflections
+##  Summary Observations & Reflections
 
-* 🛑 **Stop-lost and frameshift variants** are strongly predicted as pathogenic (e.g., CADD > 27, MT = Deleterious), aligning with known functional impact.
-* ⚠️ **Mixed predictions** seen for `17:43045726C>A` — SIFT predicts deleterious, but PolyPhen and ClinVar disagree → highlights need for clinical context.
-* 🔬 **SIFT can produce false positives** in variants labeled benign by ClinVar, especially in genes tolerant to missense mutations.
-* 📊 **CADD scores show good alignment** with known pathogenic variants (>25), but scores between 10–20 are often ambiguous.
-* 🔄 **Multiple transcript effects** observed via VEP — e.g., same variant classified as both missense and 3′ UTR → transcript-aware analysis is essential.
-
+*  **Stop-lost and frameshift variants** are strongly predicted as pathogenic (e.g., CADD > 27, MT = Deleterious), aligning with known functional impact.
+*  **Mixed predictions** seen for `17:43045726C>A` — SIFT predicts deleterious, but PolyPhen and ClinVar disagree → highlights need for clinical context.
+*  **SIFT can produce false positives** in variants labeled benign by ClinVar, especially in genes tolerant to missense mutations.
+*  **CADD scores show good alignment** with known pathogenic variants (>25), but scores between 10–20 are often ambiguous.
 
 
 
-# 🧬 CFTR: Master Variant Impact Analysis
+#  CFTR: Master Variant Impact Analysis
 
-## 📋 Summary Table
+##  Summary Table
 
 | Variant | MutationTaster | AA Change | ClinVar Significance | CADD | Variant Type | SIFT | PolyPhen | Molecular Consequence |
 |--------|----------------|-----------|------------------------|------|---------------|-------|----------|------------------------|
@@ -143,16 +148,16 @@ Below is the master summary table of all interpreted variants, integrating clini
 | 7:117531108insCC | Deleterious | K162Pfs*5 | Pathogenic/Likely pathogenic | – | Insertion | N/A | N/A | Frameshift |
 | 7:117535451A>G | Benign | – | Benign | – | SNV | N/A | N/A | Intron variant |
 
-## 🧠 Interpretation Summary
+##  Interpretation Summary
 
 - **Frameshift variants** (e.g., A9Gfs*36, F16Tfs*30, K162Pfs*5) are consistently marked as **pathogenic** by tools and ClinVar — reflecting strong disruption of CFTR protein structure.
-- **Initiator codon loss** (`M1?`) is interpreted as deleterious due to loss of normal translation start — supported by CADD and MutationTaster.
+- **Initiator codon loss** (`M1`) is interpreted as deleterious due to loss of normal translation start — supported by CADD and MutationTaster.
 - **Two common SNVs** (C>T and G>C at 7:117479208) are unanimously predicted as benign, with low CADD scores or no protein consequence.
 - **Intronic variant** (7:117535451A>G) is likely benign with no splicing or functional implications, matching ClinVar annotation.
 - **No major disagreement** exists between tools and ClinVar for CFTR — predictions show high consensus in this dataset.
 
 
-## 🧬 GJB2 Master Variant Impact Table
+##  GJB2 Master Variant Impact Table
 
 | Variant | MutationTaster | CADD PHRED | AA Change | Variant Type | SIFT | PolyPhen | ClinVar Label | Molecular Consequence |
 |--------|----------------|-------------|------------|---------------|------|-----------|----------------|------------------------|
@@ -166,7 +171,7 @@ Below is the master summary table of all interpreted variants, integrating clini
 
 ---
 
-### 🔍 GJB2 Variant Interpretation Summary
+###  GJB2 Variant Interpretation Summary
 
 - **Stop-lost and frameshift variants** (`13:20188976ins...`, `13:20189006delTG`, `13:20189017delCT`) are consistently predicted as **deleterious** by MutationTaster and labeled **Pathogenic/Likely pathogenic** in ClinVar, supporting strong concordance between computational tools and clinical annotations.
 
