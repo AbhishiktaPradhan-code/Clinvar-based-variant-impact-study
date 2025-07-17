@@ -1,0 +1,2 @@
+#chr	pos	variation	variant_type	snp_id	clinical_significance	validation_status	function_class	gene	frequency
+7	117480117	->G	delins	1584764596	pathogenic;likely-pathogenic		frameshift_variant;coding_sequence_variant	CFTR	

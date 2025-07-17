@@ -1,0 +1,50 @@
+"Gene
+",rsID ,HGVS,ClinVar Significance ,chr,Pos, Ref ,Alt ,Allele Freq,"AF (decimal)
+",AF vs ClinVar Consistency Flag,"Genomic Format
+","Protein Format
+","Genome Build
+",Varient ,MutationTaster Result,Probability Score,CADD PHRED Score,
+BRCA1,rs80357183,NM_007294.4(BRCA1):c.5585A>T (p.His1862Leu),Benign/Likely benign,17,43045685,T,A,A:0.000012:7:GnomAD_exomes,0.000012,"Low AF, but still consistent with benign
+",chr17:43045685 T>A,p.His1862Leu,GRCh38,17:43045685T>A_25_ENST00000357654,"Deleterious
+","AAE:
+H1862L
+?
+Score:
+99
+",10.58,
+BRCA1,rs2050865178,NM_007294.4(BRCA1):c.5544G>A (p.Gln1848=),Benign/Likely benign,17,43045726,C,A,A:0.000002:1:GnomAD_exomes,0.000002,"Very rare benign variant 
+",chr17:43045726 C>A,p.Gln1848=,GRCh38,17:43045726C>A_25_ENST00000357654,"Deleterious
+","AAE:
+Q1848H
+
+Score:
+24
+",22.6,
+BRCA1,rs1597796956,NM_007294.4(BRCA1):c.5517_5518insC (p.Asp1840fs),Pathogenic/Likely pathogenic,17,43045752,,G,"—
+","—
+","No population frequency available 
+
+
+",chr17:43045752 insG,p.Asp1840fs,GRCh38,17:43045752A>AG_1_ENST00000497488,"Deleterious
+","Original stop codon lost, prolonged protein
+",27.1,
+BRCA1,rs80356914,NM_007294.4(BRCA1):c.5511G>C (p.Trp1837Cys),Pathogenic/Likely pathogenic,17,43045759,C,A,G:0.000002:1:GnomAD_exomes,0.000002,"Very rare pathogenic variant
+",chr17:43045759 C>A,p.Trp1837Cys,GRCh38,17:43045759C>A_25_ENST00000357654,"Deleterious
+","AA changes
+AAE:
+W1837C
+?
+Score:
+215
+",27.6,
+BRCA1,rs2546095844,NM_007294.4(BRCA1):c.5484dup (p.Glu1829Ter),Pathogenic,17,43045785,,A,"—
+","—
+","No AF reported
+
+",chr17:43045785 insA,p.Glu1829Ter,GRCh38,17:43045784T>TA_1_ENST00000497488,Deleterious,"original stopcodon lost, results in prolonged protein",36,
+BRCA1,rs80357286,NM_007294.4(BRCA1):c.5456A>G (p.Asn1819Ser),Benign/Likely benign,17,43047654,T,A,C:0.0000329:4:ExAC,0.0000329,"Rare but benign
+",chr17:43047654 T>A,p.Asn1819Ser,GRCh38,17:43047654T>A_25_ENST00000357654,Benign,"AAE:
+N1819I
+Score:
+149
+",7.686,

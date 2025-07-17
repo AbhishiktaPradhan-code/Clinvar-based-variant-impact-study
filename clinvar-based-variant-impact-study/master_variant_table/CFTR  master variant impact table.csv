@@ -1,0 +1,8 @@
+Variant,MutationTaster Result,AA Change,MutationTaster Score,ClinVar Significance,CADD PHRED,Variant type,SIFT,PolyPhen,Molecular consequence
+7:117479208C>T,Benign,N\A,100,Benign/Likely benign,6.987,single nucleotide variant,N\A,N\A,N\A
+7:117479208G>C,Benign,N\A,N/A,Benign/Likely benign,N\A,single nucleotide variant,N\A,N\A,N\A
+7:117480097G>A,Deleterious,"Ml? Loss of initiating Methionine, new frame start",N/A,Pathogenic/Likely pathogenic,24.9,single nucleotide variant,deleterious_low_confidence(0),benign(0.362),missense variant|initiator_codon_variant
+7:117480117insG,Deleterious,A9Gfs*36,N/A,Pathogenic/Likely pathogenic,21.8,Duplication,N\A,N\A,frameshift variant
+7:117480134delAAACT ,Deleterious ,F16Tfs*30 ,N/A,Pathogenic,38,Deletion,N\A,N\A,frameshift variant
+ 7:117531108insCC,Deleterious , K162Pfs*5,N/A,Pathogenic/Likely pathogenic,N\A,Insertion,N\A,N\A,frameshift variant
+7:117535451A>G,Benign,N/A,N/A,Benign,N\A,single nucleotide variant,N\A,N\A,intron variant

@@ -1,0 +1,28 @@
+"Gene
+",rsID ,HGVS,ClinVar Significance ,chr,Pos, Ref ,Alt ,Allele Freq,"AF (decimal)
+",	AF vs ClinVar Consistency Flag,"Genomic Format
+","Protein Format
+","Genome Build
+",Variant:,MutationTaster Result,Probability Score,CADD
+CFTR|LOC111674463,rs34465975,NM_000492.4(CFTR):c.-887C>T,Benign/Likely benign,7,117479208,C,T,T:0.016374:82:1000Genomes|,"0.016374
+"," High AF aligns with benign label
+",chr7:117479208 C>T,Non-coding,GRCh38,7:117479208C>T_1_ENST00000160373,Benign,100,6.987
+CFTR|LOC111674463,rs369326781,NM_000492.4(CFTR):c.-4G>C,Benign/Likely benign,7,117479208,G,C,T:0.016374:82:1000Genomes,"0.016374
+"," Matches benign 
+",chr7:117479208 G>C,Non-coding,GRCh38,7:117479208G>C_1_ENST00000160373,Benign,Tree vote: 0|100 (del | benign) ,
+CFTR,rs397508657,NM_000492.4(CFTR):c.3G>A (p.Met1Ile),Pathogenic,7,117480097,G,A,,"–
+"," No AF data 
+",chr7:117480097 G>A,p.Met1Ile,GRCh38,7:117480097G>A_4_ENST00000003084,Deleterious,"initiating Methionine lose
+activation of potential downstream translation initiation site with new reading frame",24.9
+CFTR,rs1584764596,NM_000492.4(CFTR):c.25dup (p.Ala9fs),Pathogenic/Likely pathogenic,7,117480117,,G,,"–
+"," No AF data 
+",chr7:117480117 insG,p.Ala9fs,GRCh38,7:117480117A>AG_4_ENST00000003084,Deleterious,A9Gfs*36,21.8
+CFTR,rs2484928957,NM_000492.4(CFTR):c.40_44del (p.Lys14fs),Pathogenic/Likely pathogenic,7,117480134,AAACT,,-:0.0000007:1:GnomAD_exomes,"0.0000007
+"," Rare variant — consistent with pathogenicity.
+",chr7:117480134 delAAACT,p.Lys14fs,GRCh38,7:117480134A>AAACT_4_ENST00000003084,Deleterious,F16Tfs*30,38(MAX)
+CFTR,rs1584785196,NM_000492.4(CFTR):c.483_484insCC (p.Lys162fs),Pathogenic/Likely pathogenic,7,117531108,,CC,,"–
+"," No AF data 
+",chr7:117531108 insCC,p.Lys162fs,GRCh38,7:117531108A>ACC_4_ENST00000003084,Deleterious,K162Pfs*5,
+CFTR,rs1800502,NM_000492.4(CFTR):c.743+40A>G,Benign,7,117535451,A,G,G:0.0165735:83:1000Genomes,"0.0165735
+","High AF — strongly supports benign status.
+ ",chr7:117535451 A>G,Non-coding,GRCh38,7:117535451A>G_4_ENST00000003084,Benign,,0.974

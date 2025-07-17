@@ -1,0 +1,2 @@
+#chr	pos	variation	variant_type	snp_id	clinical_significance	validation_status	function_class	gene	frequency
+13	20189303	C>G,T	snv	397516871	likely-pathogenic;pathogenic-likely-pathogenic	by-frequency;by-alfa;by-cluster	coding_sequence_variant;missense_variant	GJB2	T:0.000259:1:ALSPAC|T:0.000008:1:ExAC|T:0.000013:2:GnomAD_genomes|T:0.000026:7:TOPMED|T:0.00027:1:TWINSUK|T:0.000069:1:ALFA
