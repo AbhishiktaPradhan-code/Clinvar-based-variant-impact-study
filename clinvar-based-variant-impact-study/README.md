@@ -1,5 +1,6 @@
 #  Variant Impact Analysis: clinvar-based-variant-impact-study
 
+
 ##  Project Overview
 
 This project aims to simulate a diagnostic gene panel analysis by evaluating and interpreting variants from three disease-relevant genes: **TP53**, **CFTR**, and **GJB2**. Using publicly available databases and prediction tools, we assess the clinical significance of each variant by comparing computational scores with known ClinVar annotations.
@@ -102,13 +103,15 @@ These differences emphasize the importance of:
 - Interpreting predictions **in combination with clinical databases** like **ClinVar**.
 - Making room for **functional annotations and transcript-aware scoring**.
 
-Consensus-based interpretation — or building your own scoring rubric — helps address these inconsistencies in a structured way.
 
 Note: MutationTaster “Score” reflects internal classifier strength, not probability. Not intended for cross-variant comparisons. Use only as supporting info.
 
 
 
-##  Variant Impact Summary (Case Study: BRCA1 Region)
+##  Variant Impact Summary 
+
+#  BRCA1: Master Variant Impact Analysis
+
 
 Below is the master summary table of all interpreted variants, integrating clinical classification (ClinVar) with computational predictions from SIFT, PolyPhen-2, MutationTaster, and CADD.
 
