@@ -4,7 +4,7 @@
 
 This project aims to simulate a diagnostic gene panel analysis by evaluating and interpreting variants from three disease-relevant genes: **TP53**, **CFTR**, and **GJB2**. Using publicly available databases and prediction tools, we assess the clinical significance of each variant by comparing computational scores with known ClinVar annotations.
 
-The goal is to demonstrate how computational predictions like SIFT, PolyPhen-2, MutationTaster, and CADD align—or conflict—with clinical significance labels. This helps build an understanding of variant interpretation pipelines .
+The goal is to demonstrate how computational predictions like SIFT, PolyPhen-2, MutationTaster, and CADD align or conflict with clinical significance labels. This helps build an understanding of variant interpretation pipelines .
 ---
 
 
