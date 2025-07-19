@@ -51,34 +51,31 @@ This project is **entirely tool-based** (no coding). All analyses were conducted
 
 This diagnostic gene panel includes three clinically significant genes, each with well-characterized pathogenic and benign variants. These genes were selected based on their medical relevance, availability of variant data in public databases, and their utility in evaluating variant interpretation tools such as SIFT, PolyPhen-2, CADD, and MutationTaster.
 
+## 🔬 Selected Genes for Diagnostic Variant Impact Analysis
+
 ---
 
-###  BRCA1 – *Hereditary Breast and Ovarian Cancer*
-
+###  BRCA1 – *Hereditary Breast & Ovarian Cancer*
 - **Inheritance:** Autosomal Dominant  
-- **Function:** BRCA1 encodes a 190 kDa nuclear phosphoprotein involved in the maintenance of genomic stability. It acts as a tumor suppressor and plays key roles in DNA repair (particularly double-stranded breaks), homologous recombination, and transcriptional regulation via interactions with RNA polymerase II and histone deacetylase complexes.  
-- **Clinical Relevance:** Mutations in BRCA1 are responsible for approximately **40% of inherited breast cancers** and over **80% of combined hereditary breast and ovarian cancer cases**. It is a benchmark gene in cancer diagnostics with well-curated variant data across ClinVar, dbSNP, and related resources.
+- **Function:** Tumor suppressor involved in DNA repair (especially double-strand breaks) and transcriptional regulation.  
+- **Clinical Relevance:** Accounts for ~40% of inherited breast cancers and >80% of combined breast–ovarian cancer cases. A gold-standard gene in cancer diagnostics.
 
 ---
 
 ###  CFTR – *Cystic Fibrosis*
-
 - **Inheritance:** Autosomal Recessive  
-- **Function:** CFTR encodes a member of the ATP-binding cassette (ABC) transporter family. Unlike other ABC proteins, CFTR functions as a chloride ion channel and regulates salt and water movement across epithelial membranes in organs such as the lungs, pancreas, and intestines.  
-- **Clinical Relevance:** Mutations in CFTR cause **cystic fibrosis**, the most common lethal genetic disorder in Northern European populations. The **DeltaF508**, which impairs protein folding and trafficking, accounts for the majority of cystic fibrosis cases. Its high prevalence and biological impact make CFTR an ideal inclusion in diagnostic pipelines.
+- **Function:** Chloride ion channel regulating salt/water transport in epithelial tissues.  
+- **Clinical Relevance:** Causes cystic fibrosis; ΔF508 is the most common pathogenic variant. One of the most well-studied Mendelian disorders.
 
 ---
 
-###  GJB2 – *Non-syndromic Hearing Loss (DFNB1)*
-
+###  GJB2 – *Non-syndromic Hearing Loss*
 - **Inheritance:** Autosomal Recessive  
-- **Function:** GJB2 encodes **connexin 26**, a member of the gap junction protein family that facilitates direct intercellular communication via ion and small molecule exchange. These channels are essential for maintaining ionic balance in cochlear hair cells.  
-- **Clinical Relevance:** Mutations in GJB2 are responsible for up to **50% of cases of prelingual, autosomal recessive non-syndromic hearing loss**. Its inclusion introduces diversity in disease mechanisms (sensory, not metabolic or oncological) and offers insights into high-impact missense mutations across varied populations.
-
----
+- **Function:** Encodes connexin 26, enabling ion flow in cochlear cells via gap junctions.  
+- **Clinical Relevance:** Leading cause of inherited childhood hearing loss (~50% of cases). Offers diagnostic insight into sensory disorders.
+ 
 ##  Understanding Prediction Tool Discrepancies
 
-Not all computational tools agree — and that’s expected. Each tool uses different models, biological assumptions, and data sources.
 
 | **Tool**         | **Primary Focus**              | **Key Factors Considered**                             |
 |------------------|--------------------------------|---------------------------------------------------------|
@@ -131,7 +128,7 @@ Below is the master summary table of all interpreted variants, integrating clini
 ##   Observations & Reflections (BRCA1)
 
 *  **Stop-lost and frameshift variants** are strongly predicted as pathogenic (e.g., CADD > 27, MT = Deleterious), aligning with known functional impact.
-*  **Mixed predictions** seen for `17:43045726C>A` — SIFT predicts deleterious, but PolyPhen and ClinVar disagree → highlights need for clinical context.
+*  **Mixed predictions** seen for `17:43045726C>A`  SIFT predicts deleterious, but PolyPhen and ClinVar disagree → highlights need for clinical context.
 *  **SIFT can produce false positives** in variants labeled benign by ClinVar, especially in genes tolerant to missense mutations.
 *  **CADD scores show good alignment** with known pathogenic variants (>25), but scores between 10–20 are often ambiguous.
 
@@ -153,11 +150,11 @@ Below is the master summary table of all interpreted variants, integrating clini
 
 ##  Interpretation Summary
 
-- **Frameshift variants** (e.g., A9Gfs*36, F16Tfs*30, K162Pfs*5) are consistently marked as **pathogenic** by tools and ClinVar — reflecting strong disruption of CFTR protein structure.
-- **Initiator codon loss** (`M1`) is interpreted as deleterious due to loss of normal translation start — supported by CADD and MutationTaster.
+- **Frameshift variants** (e.g., A9Gfs*36, F16Tfs*30, K162Pfs*5) are consistently marked as **pathogenic** by tools and ClinVar  reflecting strong disruption of CFTR protein structure.
+- **Initiator codon loss** (`M1`) is interpreted as deleterious due to loss of normal translation start  supported by CADD and MutationTaster.
 - **Two common SNVs** (C>T and G>C at 7:117479208) are unanimously predicted as benign, with low CADD scores or no protein consequence.
 - **Intronic variant** (7:117535451A>G) is likely benign with no splicing or functional implications, matching ClinVar annotation.
-- **No major disagreement** exists between tools and ClinVar for CFTR — predictions show high consensus in this dataset.
+- **No major disagreement** exists between tools and ClinVar for CFTR  predictions show high consensus in this dataset.
 
 
 ##  GJB2 Master Variant Impact Table
