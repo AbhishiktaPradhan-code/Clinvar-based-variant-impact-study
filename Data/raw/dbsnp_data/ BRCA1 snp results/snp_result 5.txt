@@ -1,0 +1,2 @@
+#chr	pos	variation	variant_type	snp_id	clinical_significance	validation_status	function_class	gene	frequency
+17	43045759	C>A,G,T	snv	80356914	not-provided;uncertain-significance;likely-pathogenic;pathogenic-likely-pathogenic;pathogenic	by-frequency;by-alfa;by-cluster	non_coding_transcript_variant;missense_variant;coding_sequence_variant;stop_gained;3_prime_UTR_variant	BRCA1	G:0.000002:1:GnomAD_exomes|T:0.000013:1:TOMMO|T:0.:0:ALFA

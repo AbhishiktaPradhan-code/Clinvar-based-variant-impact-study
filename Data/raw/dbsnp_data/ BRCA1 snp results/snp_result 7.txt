@@ -1,0 +1,2 @@
+#chr	pos	variation	variant_type	snp_id	clinical_significance	validation_status	function_class	gene	frequency
+17	43047654	T>A,C,G	snv	80357286	benign;benign-likely-benign;not-provided;conflicting-interpretations-of-pathogenicity	by-frequency;by-alfa;by-cluster	non_coding_transcript_variant;missense_variant;coding_sequence_variant;synonymous_variant	BRCA1	C:0.0000329:4:ExAC|C:0.0000728:102:GnomAD_exomes|C:0.0000134:2:GnomAD_genomes|C:0.0000769:1:GoESP|C:0.0000302:8:TOPMED|C:0.0000282:1:ALFA

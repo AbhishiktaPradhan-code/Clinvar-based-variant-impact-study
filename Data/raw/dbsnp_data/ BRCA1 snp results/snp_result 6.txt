@@ -1,0 +1,2 @@
+#chr	pos	variation	variant_type	snp_id	clinical_significance	validation_status	function_class	gene	frequency
+17	43045785	->A	delins	2546095844	pathogenic		stop_gained;coding_sequence_variant;stop_lost;terminator_codon_variant;non_coding_transcript_variant;frameshift_variant	BRCA1	

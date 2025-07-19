@@ -1,0 +1,14 @@
+Variant,MutationTaster Result,CADD PHRED,AA change,Variant type,SIFT,Polyphen, ClinVar label,Molecular consequence
+13:20188790G>A,Benign,4.39,,single nucleotide variant,N\A,N\A,Benign,3 prime UTR variant
+13:20188817A>C,Benign,15.06,,single nucleotide variant,N\A,N\A,Benign,3 prime UTR variant
+13:20188976insAAATTCCAGACACTGCAATCATGAACACTGTGAAGACAGTCTTCTC,Deleterious,,C202Wfs*10,Duplication,N\A,N\A,Pathogenic/Likely pathogenic,nonsense
+13:20189006delTG,Deleterious,,V193Cfs*3,Microsatellite,N\A,N\A,Pathogenic/Likely pathogenic,frameshift variant
+13:20189017delCT,,,,Deletion,N\A,N\A,Pathogenic/Likely pathogenic,frameshift variant
+13:20189125C>A,Benign,20.4,"AAE:
+V153F
+Score:
+50",single nucleotide variant,tolerated_low_confidence(0.19),N\A,Benign/Likely benign,missense variant
+13:20189303C>G,Deleterious,25.1,"AAE:
+M93I
+Score:
+10",single nucleotide variant,deleterious_low_confidence(0),N\A,Pathogenic/Likely pathogenic,missense variant

@@ -1,0 +1,2 @@
+#chr	pos	variation	variant_type	snp_id	clinical_significance	validation_status	function_class	gene	frequency
+17	43045726	C>A,G,T	snv	2050865178	likely-benign;benign;not-provided	by-frequency;by-cluster	synonymous_variant;missense_variant;coding_sequence_variant;non_coding_transcript_variant;3_prime_UTR_variant	BRCA1	A:0.000002:1:GnomAD_exomes

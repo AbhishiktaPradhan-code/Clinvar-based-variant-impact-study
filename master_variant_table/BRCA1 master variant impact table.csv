@@ -1,0 +1,7 @@
+Variant,MutationTaster Result,AA Change,MutationTaster Score,ClinVar Significance,CADD PHRED,Variant Type,SIFT,PolyPhen,Notes,Molecular consequence
+17:43045685T>A,Deleterious,H1862L,99,Benign/Likely benign,10.58,single nucleotide variant,deleterious_low_confidence(0.01),benign(0.013),choosed based on MANE ,missense variant|3 prime UTR variant|non-coding transcript variant
+17:43045726C>A,Deleterious,Q1848H,24,Benign/Likely benign,22.6,single nucleotide variant,deleterious(0),benign(0.263),choosed based on MANE ,synonymous variant|3 prime UTR variant
+17:43045752A>AG,Deleterious,Stop codon lost + prolonged protein,stop codon lost,Pathogenic/Likely pathog,27.1,Insertion,N/A ,N/A ,choosed based on MANE ,frameshift variant|3 prime UTR variant|non-coding transcript variant
+17:43045759C>A,Deleterious,W1837C,215,Pathogenic/Likely pathog,27.6,single nucleotide variant,deleterious(0),probably_damaging(0.991),choosed based on MANE ,missense variant|3 prime UTR variant|non-coding transcript variant
+17:43045784T>TA,Deleterious,Stop codon lost + prolonged protein,stop codon lost,Pathogenic,36,Duplication,N/A ,N/A ,choosed based on MANE ,nonsense|frameshift variant|stop lost
+17:43047654T>A,Benign,N1819I,149,Benign/Likely benign,7.686,single nucleotide variant,deleterious(0),benign(0.015),choosed based on MANE ,missense variant|synonymous variant
