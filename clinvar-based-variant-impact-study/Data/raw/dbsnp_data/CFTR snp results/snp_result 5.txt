@@ -1,2 +1,0 @@
-#chr	pos	variation	variant_type	snp_id	clinical_significance	validation_status	function_class	gene	frequency
-7	117480134	AAACT>-	del	2484928957	likely-pathogenic;pathogenic	by-frequency	frameshift_variant;coding_sequence_variant	CFTR	-:0.0000007:1:GnomAD_exomes

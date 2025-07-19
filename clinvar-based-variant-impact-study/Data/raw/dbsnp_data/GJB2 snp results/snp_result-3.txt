@@ -1,2 +1,0 @@
-#chr	pos	variation	variant_type	snp_id	clinical_significance	validation_status	function_class	gene	frequency
-13	20188976	->AAATTCCAGACACTGCAATCATGAACACTGTGAAGACAGTCTTCTC	delins	1566528185	pathogenic;likely-pathogenic	by-frequency;by-cluster	coding_sequence_variant;stop_gained	GJB2	CAAATTCCAGACACTGCAATCATGAACACTGTGAAGACAGTCTTCT:0.0000036:5:GnomAD_exomes|CAAATTCCAGACACTGCAATCATGAACACTGTGAAGACAGTCTTCT:0.0002765:2:Korea4K|CAAATTCCAGACACTGCAATCATGAACACTGTGAAGACAGTCTTCT:0.0000517:4:TOMMO

@@ -1,2 +1,0 @@
-#chr	pos	variation	variant_type	snp_id	clinical_significance	validation_status	function_class	gene	frequency
-7	117479208	C>A,G,T	snv	34465975	benign;likely-benign	by-frequency;by-alfa;by-cluster	2KB_upstream_variant;upstream_transcript_variant	CFTR	T:0.016374:82:1000Genomes|T:0.018114:116:1000Genomes_30X|T:0.015106:2252:GnomAD_genomes|T:0.09375:87:HapMap|T:0.00463:1:Qatari|C:0.5:3:SGDP_PRJ|G:0.:0:ALFA

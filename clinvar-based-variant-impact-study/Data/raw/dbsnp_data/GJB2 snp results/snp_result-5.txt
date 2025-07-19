@@ -1,2 +1,0 @@
-#chr	pos	variation	variant_type	snp_id	clinical_significance	validation_status	function_class	gene	frequency
-13	20189017	CT>-	delins	770116143	likely-pathogenic;pathogenic	by-frequency;by-alfa;by-cluster	frameshift_variant;coding_sequence_variant	GJB2	-:0.0000165:2:ExAC|-:0.0000007:1:GnomAD_exomes|-:0.0000469:7:GnomAD_genomes|-:0.0000378:10:TOPMED|T:0.:0:ALFA

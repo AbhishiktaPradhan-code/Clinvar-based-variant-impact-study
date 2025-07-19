@@ -1,2 +1,0 @@
-#chr	pos	variation	variant_type	snp_id	clinical_significance	validation_status	function_class	gene	frequency
-13	20188790	G>A	snv	7329857	benign	by-frequency;by-alfa;by-cluster	3_prime_UTR_variant	GJB2	A:0.069489:348:1000Genomes|A:0.074329:476:1000Genomes_30X|A:0.000778:3:ALSPAC|A:0.007236:4923:GnomAD_exomes|A:0.063448:9467:GnomAD_genomes|A:0.119685:152:HapMap|A:0.003745:2:MGP|A:0.041667:9:Qatari|G:0.35:14:SGDP_PRJ|A:0.072345:19149:TOPMED|A:0.00027:1:TWINSUK|A:0.013842:1753:ALFA

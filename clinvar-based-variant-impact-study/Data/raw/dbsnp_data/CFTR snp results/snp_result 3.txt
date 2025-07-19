@@ -1,2 +1,0 @@
-#chr	pos	variation	variant_type	snp_id	clinical_significance	validation_status	function_class	gene	frequency
-7	117480097	G>A,T	snv	397508657	pathogenic;not-provided	by-cluster	missense_variant;initiator_codon_variant	CFTR	
