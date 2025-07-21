@@ -37,6 +37,11 @@ The goal is to demonstrate how computational predictions like SIFT, PolyPhen-2, 
 - [**CADD**](https://cadd.gs.washington.edu/) – for combined annotation-dependent deleteriousness scores  
 ---
 
+
+##  Predictive Pipeline for Interpreting Genomic Variants
+![Pipeline](https://github.com/AbhishiktaPradhan-code/Clinvar-based-variant-impact-study/blob/main/variant_pipeline_diagram.png)
+
+
 ##  Technical Note
 
 This project is **entirely tool-based** (no coding). All analyses were conducted using:
@@ -84,6 +89,9 @@ This diagnostic gene panel includes three clinically significant genes, each wit
 | **MutationTaster** | Disease relevance              | Gene models, known variants, splice impact, conservation |
 | **CADD**         | Overall variant deleteriousness| Integrated score from multiple genomic annotations      |
 
+###  Tool Comparison Table
+![Tools](https://github.com/AbhishiktaPradhan-code/Clinvar-based-variant-impact-study/blob/main/Tool%20Comparison%20Table.png)
+
 ###  Why Do Predictions Differ?
 
 - **Transcript dependency**: Some tools score variants based on specific transcripts (e.g. MANE vs others). A variant might be missense in one transcript, UTR in another.
@@ -103,6 +111,8 @@ These differences emphasize the importance of:
 
 Note: MutationTaster “Score” reflects internal classifier strength, not probability. Not intended for cross-variant comparisons. Use only as supporting info.
 
+###  Pathogenicity Classification Decision Tree
+![Decision Tree](https://github.com/AbhishiktaPradhan-code/Clinvar-based-variant-impact-study/blob/main/Pathogenicity%20Classification%20Decision%20Tree.png)
 
 
 ##  Variant Impact Summary 
