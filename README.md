@@ -9,6 +9,14 @@ The goal is to demonstrate how computational predictions like SIFT, PolyPhen-2, 
 ---
 
 
+##  Full Project Report
+
+You can view or download the complete Project Summary report here:
+
+ [View Report](https://github.com/AbhishiktaPradhan-code/Clinvar-based-variant-impact-study/blob/main/Project_Report.pdf)
+
+
+
 ##  Total Variants Studied
 
 | Gene  | Variants |
